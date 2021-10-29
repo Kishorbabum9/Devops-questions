@@ -1,0 +1,84 @@
+1. What is Maven?
+• Maven is a powerful project management tool that is based on POM (Project Object 
+Model).
+• It is one of the Build Tool.
+• It is used for project build, dependency and documentation.
+• It makes a project easy to build.
+• It provides uniform build process (Maven project can be shared by all the maven projects)
+• It provides project information (log document, dependency list, mailing list, unit test repost 
+list etc...)
+• It is easy to migrate new feature of Maven.
+2. What does it do?
+• A build tool takes care of everything for building a process.
+• Generate source code (if auto-generate code is used)
+• Generate Documents from source code.
+• Complies source code.
+• Packages compiled code into JAR and WAR file.
+• Install the packaged code in local repository, server repository or central repository.
+3. Difference between Maven and Ant?
+Maven
+• Maven has a convention to place source code, complied code etc... so we don’t need to 
+provide information about the project structure in POM.xml
+• Maven is declarative, everything you define in the POM.XML
+• There is Life cycle in Maven.
+• It is framework 
+• It is mainly a project management Tool.
+• It is more preferred than Ant.
+• The Maven plugins are reusable.
+Ant
+• Ant doesn’t has formal conventions, so we need to provide information of the project 
+structure in build.xml
+• Ant is procedural. You need to provide information about what to do and when to do 
+through code and you need to provide order.
+• There is no life cycle in Ant.
+• It is a tool box.
+• It is mainly build tool.
+• It is less performed than Maven.
+• The Ant scripts are not reusable.
+4. What is Maven Repository?
+A Maven Repository is a directory(.M2) of a packaged JAR file with POM.xml file. Maven 
+searches for dependencies in the repositories. There are 3 types of maven repositories.
+Local Repository: this is located in your local system, it is created by maven when you run 
+maven command.
+Central Repository: This is located on the web. It has been created by apache maven 
+community itself.
+Remote Repository: This is located on the web, but most of the libraries can be missing from 
+the central repository, so we need to define remote repository in POM.xml
+5. What is POM.xml
+POM is a Project Object Model. Pom.xml file contains information of project and configuration 
+for the maven to the build project such as dependencies, build directory, source directory, test 
+source directory, plugins, goals etc... maven reads the POM.xml file, then executes the goal.
+6. What is Maven Artifacts?
+An artifact is a file, usually a JAR/WAR that gets deployed to a Maven repository. A Maven 
+build produces one or more Artifacts, such as a compiled JAR and a "sources" JAR.
+Each artifact has a group ID, an artifact ID and a version string.
+7. What would the command mvn clean do?
+This command removes all the build data before starting the build process in target directory.
+8. What is the Maven Lifecycle?
+Lifestyle executed in term of phases:
+1. Maven Steps through phases.
+2. Execution defined in terms of plugin goals.
+3. Execution associated with phases.
+4. Lifecycle completes when all phase executes successfully.
+9. What are the phases of a Maven Build Lifecycle?
+validate − validate the project is correct and all necessary information is available.
+compile − compile the source code of the project.
+test − test the compiled source code using a suitable unit testing framework. These tests should 
+not require the code be packaged or deployed
+package − take the compiled code and package it in its distributable format, such as a JAR/WAR.
+integration-test − process and deploy the package if necessary into an environment where 
+integration tests can be run.
+verify − run any checks to verify the package is valid and meets quality criteria.
+install − install the package into the local repository, for use as a dependency in other projects 
+locally.
+deploy − done in an integration or release environment, copies the final package to the remote 
+repository for sharing with other developers and projects.
+10. What is Maven Archetypes? And what are the Project Types?
+Archetypes are templates to create a variety of Java project structures.
+# mvn archetype:generate : to generate project structures
+11. What is different between Snapshot and Version?
+In case of Version, if Maven once downloaded the mentioned version, it will never try to 
+download a newer 1.0 available in repository. To download the updated code, data-service 
+version is being upgraded to 1.1.
+In case of SNAPSHOT, Maven will automatically fetch the latest SNAPSHOT every time app-ui 
+team build their project
