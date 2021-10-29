@@ -1,0 +1,306 @@
+Global Infrastructure
+Explain the following
+Availability zone
+Region
+Edge location
+AWS IAM
+What is IAM? What are some of its features?
+True or False? IAM configuration is defined globally and not per region
+Given an example of IAM best practices?
+What are Roles?
+What are Policies?
+A user is unable to access an s3 bucket. What might be the problem?
+What should you use to:
+Grant access between two services/resources?
+
+Grant user access to resources/services?
+
+What permissions does a new user have?
+AWS Compute
+What is EC2?
+What is AMI?
+What are the different source for AMIs?
+What is instance type?
+True or False? The following are instance types available for a user in AWS:
+Compute optimizied
+Network optimizied
+Web optimized
+What is EBS?
+What EC2 pricing models are there?
+What are Security Groups?
+How to migrate an instance to another availability zone?
+What can you attach to an EC2 instance in order to store data?
+What EC2 RI types are there?
+AWS Serverless Compute
+Explain what is AWS Lambda
+True or False? In AWS Lambda, you are charged as long as a function exists, regardless of whether it's running or not
+Which of the following set of languages Lambda supports?
+R, Swift, Rust, Kotlin
+
+Python, Ruby, Go
+
+Python, Ruby, PHP
+
+AWS Containers
+What is Amazon ECS?
+What is Amazon ECR?
+What is AWS Fargate?
+AWS Storage
+Explain what is AWS S3?
+What is a bucket?
+True or False? A bucket name must be globally unique
+Explain folders and objects in regards to buckets
+Explain the following:
+Object Lifecycles
+
+Object Sharing
+
+Object Versioning
+
+Explain Object Durability and Object Availability
+What is a storage class? What storage classes are there?
+A customer would like to move data which is rarely accessed from standard storage class to the most cheapest class there is. Which storage class should be used?
+One Zone-IA
+Glacier Deep Archive
+Intelligent-Tiering
+What Glacier retrieval options are available for the user?
+True or False? Each AWS account can store up to 500 PetaByte of data. Any additional storage will cost double
+Explain what is Storage Gateway
+Explain the following Storage Gateway deployments types
+File Gateway
+Volume Gateway
+Tape Gateway
+What is the difference between stored volumes and cached volumes?
+What is "Amazon S3 Transfer Acceleration"?
+Explain data consistency
+Can you host dynamic websites on S3? What about static websites?
+What security measures have you taken in context of S3?
+What storage options are there for EC2 Instances?
+What is Amazon EFS?
+What is AWS Snowmobile?
+AWS Disaster Recovery
+In regards to disaster recovery, what is RTO and RPO?
+What types of disaster recovery techniques AWS supports?
+Which disaster recovery option has the highest downtime and which has the lowest?
+AWS CloudFront
+Explain what is CloudFront
+Explain the following
+Origin
+Edge location
+Distribution
+What delivery methods available for the user with CDN?
+True or False?. Objects are cached for the life of TTL
+What is AWS Snowball?
+AWS ELB
+What is ELB (Elastic Load Balancing)?
+What is auto scaling?
+True or False? Auto Scaling is about adding resources (such as instances) and not about removing resource
+What types of load balancers are supported in EC2 and what are they used for?
+AWS Security
+What is the shared responsibility model? What AWS is responsible for and what the user is responsible for based on the shared responsibility model?
+True or False? Based on the shared responsibility model, Amazon is responsible for physical CPUs and security groups on instances
+Explain "Shared Controls" in regards to the shared responsibility model
+What is the AWS compliance program?
+What is AWS Artifact?
+What is AWS Inspector?
+What is AWS Guarduty?
+What is AWS Shield?
+What is AWS WAF? Give an example of how it can used and describe what resources or services you can use it with
+What AWS VPN is used for?
+What is the difference between Site-to-Site VPN and Client VPN?
+What is AWS CloudHSM?
+True or False? AWS Inspector can perform both network and host assessments
+What is AWS Key Management Service (KMS)?
+What is AWS Acceptable Use Policy?
+True or False? A user is not allowed to perform penetration testing on any of the AWS services
+True or False? DDoS attack is an example of allowed penetration testing activity
+True or False? AWS Access Key is a type of MFA device used for AWS resources protection
+What is Amazon Cognito?
+What is AWS ACM?
+AWS Databases
+What is AWS RDS?
+What is AWS DynamoDB?
+Explain "Point-in-Time Recovery" feature in DynamoDB
+Explain "Global Tables" in DynamoDB
+What is DynamoDB Accelerator?
+What is AWS Redshift and how is it different than RDS?
+What do you if you suspect AWS Redshift performs slowly?
+What is AWS ElastiCache? For what cases is it used?
+What is Amazon Aurora
+What is Amazon DocumentDB?
+What "AWS Database Migration Service" is used for?
+What type of storage is used by Amazon RDS?
+Explain Amazon RDS Read Replicas
+AWS Networking
+What is VPC?
+True or False? VPC spans multiple regions
+True or False? Subnets belong to the same VPC, can be in different availability zones
+What is an Internet Gateway?
+True or False? NACL allow or deny traffic on the subnet level
+True or False? Multiple Internet Gateways can be attached to one VPC
+What is an Elastic IP address?
+True or False? Route Tables used to allow or deny traffic from the internet to AWS instances
+Explain Security Groups and Network ACLs
+What is AWS Direct Connect?
+Identify the service or tool
+What would you use for automating code/software deployments?
+What would you use for easily creating similar AWS environments/resources for different customers?
+Using which service, can you add user sign-up, sign-in and access control to mobile and web apps?
+Which service would you use for building a website or web application?
+Which tool would you use for choosing between Reserved instances or On-Demand instances?
+What would you use to check how many unassociated Elastic IP address you have?
+Which service allows you to transfer large amounts (Petabytes) of data in and out of the AWS cloud?
+Which service provides a virtual network dedicated to your AWS account?
+What you would use for having automated backups for an application that has MySQL database layer?
+What would you use to migrate on-premise database to AWS?
+What would you use to check why certain EC2 instances were terminated?
+What would you use for SQL database?
+What would you use for NoSQL database?
+What would you use for adding image and video analysis to your application?
+Which service would you use for debugging and improving performances issues with your applications?
+Which service is used for sending notifications?
+What would you use for running SQL queries interactively on S3?
+Which service would you use for monitoring malicious activity and unauthorized behavior in regards to AWS accounts and workloads?
+Which service would you use for centrally manage billing, control access, compliance, and security across multiple AWS accounts?
+Which service would you use for web application protection?
+You would like to monitor some of your resources in the different services. Which service would you use for that?
+Which service would you use for performing security assessment?
+Which service would you use for creating DNS record?
+What would you use if you need a fully managed document database?
+Which service would you use to add access control (or sign-up, sign-in forms) to your web/mobile apps?
+Which service would you use if you need messaging queue?
+Which service would you use if you need managed DDOS protection?
+Which service would you use if you need store frequently used data for low latency access?
+What would you use to transfer files over long distances between a client and an S3 bucket?
+Which service would you use for distributing incoming requests across multiple?
+AWS DNS
+What is Route 53?
+AWS Monitoring & Logging
+What is AWS CloudWatch?
+What is AWS CloudTrail?
+What is Simply Notification Service?
+Explain the following in regards to SNS:
+Topics
+
+Subscribers
+
+Publishers
+
+AWS Billing & Support
+What is AWS Organizations?
+What are Service Control Policies and to what service they belong?
+Explain AWS pricing model
+How one should estimate AWS costs when for example comparing to on-premise solutions?
+What basic support in AWS includes?
+How are EC2 instances billed?
+What AWS Pricing Calculator is used for?
+What is Amazon Connect?
+What are "APN Consulting Partners"?
+Which of the following are AWS accounts types (and are sorted by order)?
+Basic, Developer, Business, Enterprise
+
+Newbie, Intermediate, Pro, Enterprise
+
+Developer, Basic, Business, Enterprise
+
+Beginner, Pro, Intermediate Enterprise
+
+True or False? Region is a factor when it comes to EC2 costs/pricing
+What is "AWS Infrastructure Event Management"?
+AWS Automation
+What is AWS CodeDeploy?
+Explain what is CloudFormation
+AWS Misc
+What is AWS CloudSearch?
+What is AWS Lightsail?
+What is AWS Rekognition?
+What AWS Resource Groups used for?
+What is AWS Global Accelerator?
+What is AWS Config?
+What is AWS X-Ray?
+What is AWS OpsWorks?
+What is AWS Athena?
+What is Amazon Cloud Directory?
+What is AWS Elastic Beanstalk?
+What is AWS SWF?
+What is AWS EMR?
+What is AWS Quick Starts?
+What is the Trusted Advisor?
+What is AWS Service Catalog?
+What is AWS CAF?
+What is AWS Cloud9?
+What is AWS Application Discovery Service?
+What is the AWS well-architected framework and what pillars it's based on?
+What AWS services are serverless (or have the option to be serverless)?
+What is Simple Queue Service (SQS)?
+Network
+What is Ethernet?
+What is TCP/IP?
+What is a MAC address? What is it used for?
+When is this MAC address used?: ff:ff:ff:ff:ff:ff
+What is an IP address?
+Explain subnet mask and given an example
+What is a private IP address? What do we need it for?
+Explain the OSI model. What layers there are? What each layer is responsible for?
+For each of the following determine to which OSI layer it belongs:
+Error correction
+Packets routing
+Cables and electrical signals
+MAC address
+IP address
+Terminate connections
+3 way handshake
+Details
+What delivery schemes are you familiar with?
+What is CSMA/CD? Is it used in modern ethernet networks?
+Describe the following network devices and the difference between them:
+router
+switch
+hub
+How does a router works?
+What is NAT?
+What is a proxy? How does it works? What do we need it for?
+What is TCP? How does it works? What is the 3 way handshake?
+What is round-trip delay or round-trip time?
+How does SSL handshake work?
+What is the difference between TCP and UDP?
+What TCP/IP protocols are you familiar with?
+Explain "default gateway"
+What is ARP? How does it works?
+What is TTL?
+What is DHCP? How does it works?
+What is SSL tunneling? How does it works?
+What is a socket? Where can you see the list of sockets in your system?
+What is IPv6? Why should we consider using it if we have IPv4?
+What is VLAN?
+What is MTU?
+What happens if you send a packet that is bigger than the MTU?
+True or False?. Ping is using UDP because it doesn't care about reliable connection
+What is SDN?
+What is ICMP? What is it used for?
+What is NAT? How does it works?
+Which factors affect network performances
+What the terms "Data Plane" and "Control Plane" refer?
+Explain Spanning Tree Protocol (STP)
+What is link aggregation? Why is it used?
+What is Asymmetric Routing? How do deal with it?
+What overlay (tunnel) protocols are you familiar with?
+What is GRE? How does it works?
+What is VXLAN? How does it works?
+What is SNAT?
+Explain OSPF
+What is latency?
+What is bandwidth?
+What is throughput?
+When performing a search query, what is more important, latency or throughput? And how to assure that what managing global infrastructure?
+When uploading a video, what is more important, latency or throughput? And how to assure that?
+What other considerations (except latency and throughput) are there when forwarding requests?
+Explain Spine & Leaf
+What is Network Congestion? What can cause it?
+What can you tell me about UDP packet format? What about TCP packet format? How is it different?
+What is the exponential backoff algorithm? Where is it used?
+Using Hamming code, what would be the code word for the following data word 100111010001101?
+Give examples of protocols found in the application layer
+Give examples of protocols found in the network Layer
+What is HSTS?
+What is the difference if any between SSL and TLS?
