@@ -1,0 +1,129 @@
+What is Jenkins? What have you used it for?
+What are the advantages of Jenkins over its competitors? Can you compare it to one of the following systems?
+Travis
+Bamboo
+Teamcity
+CircleCI
+What are the limitations or disadvantages of Jenkins?
+Explain the following:
+Job
+Build
+Plugin
+Slave/Node/Worker
+Executor
+What plugins have you used in Jenkins?
+Explain CI/CD and how have you implemented it in Jenkins
+What type of jobs are there? Which types have you used?
+How did you report build results to users? What ways are you familiar with for reporting results?
+You need to run unit tests every time a change submitted to a given project. Describe in details how your pipeline would look like and what will be executed in each stage
+How to secure Jenkins?
+Describe how do you add new nodes (agents) to Jenkins
+How to acquire multiple nodes for one specific build?
+Whenever a build fails, you would like to notify the team owning the job regarding the failure and provide failure reason. How would you do that?
+There are four teams in your organization. How to prioritize the builds of each team? So the jobs of team x will always run before team y for example
+If you are managing a dozen of jobs, you can probably use the Jenkins UI. But how do you manage the creation and deletion of hundreds of jobs every week/month?
+What are some of Jenkins limitations?
+How would you implement an option of a starting a build from a certain stage and not from the beginning?
+Jenkins Dev
+Do you have experience with developing a Jenkins plugin? Can you describe this experience?
+Have you written Jenkins scripts? If yes, what for and how they work?
+Cloud
+What is Cloud Computing? What is a Cloud Provider?
+What are the advantages of cloud computing? Mention at least 3 advantages
+What types of Cloud Computing services are there?
+Explain each of the following and give an example:
+IAAS
+PAAS
+SAAS
+What types of clouds (or cloud deployments) are there?
+Explain each of the following Cloud Computing Deployments:
+Public
+Private
+Hybrid
+What are the differences between Cloud Providers and On-Premise solution?
+What is Serverless Computing?
+AWS
+Global Infrastructure
+Explain the following
+Availability zone
+Region
+Edge location
+AWS IAM
+What is IAM? What are some of its features?
+True or False? IAM configuration is defined globally and not per region
+Given an example of IAM best practices?
+What are Roles?
+What are Policies?
+A user is unable to access an s3 bucket. What might be the problem?
+What should you use to:
+Grant access between two services/resources?
+
+Grant user access to resources/services?
+
+What permissions does a new user have?
+AWS Compute
+What is EC2?
+What is AMI?
+What are the different source for AMIs?
+What is instance type?
+True or False? The following are instance types available for a user in AWS:
+Compute optimizied
+Network optimizied
+Web optimized
+What is EBS?
+What EC2 pricing models are there?
+What are Security Groups?
+How to migrate an instance to another availability zone?
+What can you attach to an EC2 instance in order to store data?
+What EC2 RI types are there?
+AWS Serverless Compute
+Explain what is AWS Lambda
+True or False? In AWS Lambda, you are charged as long as a function exists, regardless of whether it's running or not
+Which of the following set of languages Lambda supports?
+R, Swift, Rust, Kotlin
+
+Python, Ruby, Go
+
+Python, Ruby, PHP
+
+AWS Containers
+What is Amazon ECS?
+What is Amazon ECR?
+What is AWS Fargate?
+AWS Storage
+Explain what is AWS S3?
+What is a bucket?
+True or False? A bucket name must be globally unique
+Explain folders and objects in regards to buckets
+Explain the following:
+Object Lifecycles
+
+Object Sharing
+
+Object Versioning
+
+Explain Object Durability and Object Availability
+What is a storage class? What storage classes are there?
+A customer would like to move data which is rarely accessed from standard storage class to the most cheapest class there is. Which storage class should be used?
+One Zone-IA
+Glacier Deep Archive
+Intelligent-Tiering
+What Glacier retrieval options are available for the user?
+True or False? Each AWS account can store up to 500 PetaByte of data. Any additional storage will cost double
+Explain what is Storage Gateway
+Explain the following Storage Gateway deployments types
+File Gateway
+Volume Gateway
+Tape Gateway
+What is the difference between stored volumes and cached volumes?
+What is "Amazon S3 Transfer Acceleration"?
+Explain data consistency
+Can you host dynamic websites on S3? What about static websites?
+What security measures have you taken in context of S3?
+What storage options are there for EC2 Instances?
+What is Amazon EFS?
+What is AWS Snowmobile?
+AWS Disaster Recovery
+In regards to disaster recovery, what is RTO and RPO?
+What types of disaster recovery techniques AWS supports?
+Which disaster recovery option has the highest downtime and which has the lowest?
